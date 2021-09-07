@@ -70,11 +70,16 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Sitting too long has become the unhealthy byproduct of our modern life. Students often sit for hours when studying; most white-collar workers, engineers, and designers sit and stare at the screen for their working hours. Many of us are well aware of the detrimental health effects for sitting too much, and we want to change this. A chair that glows different color of light to remind people the amount of time they have sit down might be a suitable tool to encourage us stand up after sitting for too long. 
+Sitting too long has become the unhealthy byproduct of our modern life. Students often sit for hours when studying; most white-collar workers, engineers, and designers sit and stare at the screen for most of their working hours. Many of us are well aware of the detrimental health effects for sitting too much, and we want to change. 
+
+A chair that glows different color of light to remind people the amount of time they have sit  might be a suitable tool. The chair is normal when it is empty. After a person sit for 30 minutes, the armrest glows dim white light. As that person sit for longer, the light become brighter. After two hours, the light turns yellow, reminding the person that he or she has sat for too long. After 4 hours, the light turn red, giving the sense of urgency to stand up. 
+
+Light is a good medium for this reminder because 1) light's presence can be continuous. Apple watch have a function that remind people to stand up by pushing a notification. However, it is unlikely that the moment of the arrival of the notification is the moment people can stand up. For example, if the notification arrives when people are writing emails, they are unlikely to stop their work and stand up even though they agree they should stand up. After writing the email, people often forgot about the reminder and jump to the next task. The continous presence of light can be constant reminder that it is time to stand up. 2) Light is not too salient that it distracts people. For sound, if the chair start beeping, people might be annoyed. However, people might be able to notice the light while still feeling comfortable to continue working.
 
 \*\***Include a picture of your storyboard here**\*\*
 
 ![IMG_0521](https://user-images.githubusercontent.com/39501842/132282315-1845cd70-b3d4-4ce7-b794-8c434181c457.jpg)
+
 ![IMG_0522](https://user-images.githubusercontent.com/39501842/132282371-dc0f48aa-6494-428b-97a2-f77bec9b4148.jpg)
 
 
