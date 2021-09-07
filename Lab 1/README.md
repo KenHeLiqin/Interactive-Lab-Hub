@@ -119,6 +119,9 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+The link below is for the intial set-up video.
+[Here](https://drive.google.com/file/d/1gTOhumrUucZF266K_e280N_XXyecaX0l/view?usp=sharing)
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
@@ -138,6 +141,8 @@ Think about the setting of the device: is the environment a place where the devi
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+Video of my prototyped interaction.[Here](https://drive.google.com/file/d/1ccfGLHIn01EQEtlDat1CpFqsa2bJnmGO/view?usp=sharing)
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
