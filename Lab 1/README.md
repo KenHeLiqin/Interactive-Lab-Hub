@@ -70,7 +70,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
+Sitting too long has become the unhealthy byproduct of our modern life. Students often sit for hours when studying; most white-collar workers, engineers, and designers sit and stare at the screen for their working hours. Many of us are well aware of the detrimental health effects for sitting too much, and we want to change this. A chair that glows different color of light to remind people the amount of time they have sit down might be a suitable tool to encourage us stand up after sitting for too long. 
 
 \*\***Include a picture of your storyboard here**\*\*
 
