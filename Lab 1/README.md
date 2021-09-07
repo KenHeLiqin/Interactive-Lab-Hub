@@ -74,6 +74,10 @@ Sitting too long has become the unhealthy byproduct of our modern life. Students
 
 \*\***Include a picture of your storyboard here**\*\*
 
+![IMG_0521](https://user-images.githubusercontent.com/39501842/132282315-1845cd70-b3d4-4ce7-b794-8c434181c457.jpg)
+![Uploading IMG_0522.jpg…]()
+
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
