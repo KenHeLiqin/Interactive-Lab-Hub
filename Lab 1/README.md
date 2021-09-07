@@ -1,3 +1,4 @@
+![IMG_0532](https://user-images.githubusercontent.com/39501842/132288801-4312615a-5444-4632-b6f8-d9d1ee9ad5f1.jpg)
 
 
 # Staging Interaction
@@ -134,6 +135,11 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+
+Create a clear space on the armrest to place the light stripe inside, so that the light source is not directly in contact with the arms.
+
+![IMG_0532](https://user-images.githubusercontent.com/39501842/132288815-fdb15b8f-8565-4620-81ee-3212e82f3a23.jpg)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
