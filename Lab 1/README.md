@@ -88,12 +88,15 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
+The light might still be annoying to people, so they will turn it off.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
+When people are trying to focus on the work on the screen, the constant light reminder that they need to stand up is a bit annoying.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
