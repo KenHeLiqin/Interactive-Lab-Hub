@@ -1,5 +1,3 @@
-![IMG_0532](https://user-images.githubusercontent.com/39501842/132288801-4312615a-5444-4632-b6f8-d9d1ee9ad5f1.jpg)
-
 
 # Staging Interaction
 
