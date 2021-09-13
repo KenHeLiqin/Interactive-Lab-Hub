@@ -172,3 +172,103 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Part A. Plan 
+
+To stage the interaction with your interactive device, think about:
+
+_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+
+_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+
+_Activity:_ What is happening between the actors?
+
+_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+
+The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
+
+Sitting too long has become the unhealthy byproduct of our modern life. Students often sit for hours when studying; most white-collar workers, engineers, and designers sit and stare at the screen for most of their working hours. Many of us are well aware of the detrimental health effects for sitting too much, and we want to change. 
+
+A chair that glows different color of light to remind people the amount of time they have sit  might be a suitable tool. The chair is normal when it is empty. After a person sit for 30 minutes, the armrest glows dim white light. As that person sit for longer, the light become brighter. After two hours, the light turns yellow, reminding the person that he or she has sat for too long. After 4 hours, the light turn red, giving the sense of urgency to stand up. 
+
+Light is a good medium for this reminder because 1) light's presence can be continuous. Apple watch have a function that remind people to stand up by pushing a notification. However, it is unlikely that the moment of the arrival of the notification is the moment people can stand up. For example, if the notification arrives when people are writing emails, they are unlikely to stop their work and stand up even though they agree they should stand up. After writing the email, people often forgot about the reminder and jump to the next task. The continous presence of light can be constant reminder that it is time to stand up. 2) Light is not too salient that it distracts people. For sound, if the chair start beeping, people might be annoyed. However, people might be able to notice the light while still feeling comfortable to continue working.
+
+\*\***Include a picture of your storyboard here**\*\*
+
+![IMG_0521](https://user-images.githubusercontent.com/39501842/132282315-1845cd70-b3d4-4ce7-b794-8c434181c457.jpg)
+
+![IMG_0522](https://user-images.githubusercontent.com/39501842/132282371-dc0f48aa-6494-428b-97a2-f77bec9b4148.jpg)
+
+
+
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
+\*\***Summarize feedback you got here.**\*\*
+
+The light might still be annoying to people, so they will turn it off.
+
+## Part B. Act out the Interaction
+
+Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+
+\*\***Are there things that seemed better on paper than acted out?**\*\*
+
+When people are trying to focus on the work on the screen, the constant light reminder that they need to stand up is a bit annoying.
+
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
+
+## Part C. Prototype the device
+
+You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+
+Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+
+We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
+\*\***Give us feedback on Tinkerbelle.**\*\*
+
+
+## Part D. Wizard the device
+Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+\*\***Include your first attempts at recording the set-up video here.**\*\*
+
+The link below is for the intial set-up video.
+[Here](https://drive.google.com/file/d/1gTOhumrUucZF266K_e280N_XXyecaX0l/view?usp=sharing)
+
+Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+
+\*\***Show the follow-up work here.**\*\*
+
+
+## Part E. Costume the device
+
+Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
+
+Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+\*\***Include sketches of what your device might look like here.**\*\*
+
+Create a clear space on the armrest to place the light stripe inside, so that the light source is not directly in contact with the arms.
+
+![IMG_0532](https://user-images.githubusercontent.com/39501842/132288815-fdb15b8f-8565-4620-81ee-3212e82f3a23.jpg)
+
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+
+## Part F. Record
+
+\*\***Take a video of your prototyped interaction.**\*\*
+
+Video of my prototyped interaction.[Here](https://drive.google.com/file/d/1ccfGLHIn01EQEtlDat1CpFqsa2bJnmGO/view?usp=sharing)
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
