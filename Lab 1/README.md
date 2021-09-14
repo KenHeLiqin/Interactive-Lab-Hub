@@ -157,8 +157,6 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 \*\***Summarize feedback from your partners here.**\*\*
 
 The feedbacks I got are 1) it is ok for the interaction to be more intrusive since it should act as a push for people to stand up. 2) If people find the light annoying, the chair can have button. When peole want to express "they acknolwedge the reminder, but they still want to continue to work", they can push the button.
@@ -208,7 +206,7 @@ When people are trying to focus on the work on the screen, the constant light re
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-It will be great if I can pre-set a routine for light.
+It will be great if I can pre-set a routine for the light.
 
 ## Part D. Wizard the device
 
