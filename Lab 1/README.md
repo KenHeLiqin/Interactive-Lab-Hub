@@ -180,9 +180,9 @@ Do last week’s assignment again, but this time:
 
 To stage the interaction with your interactive device, think about:
 
-_Setting: This interaction happens on the chair where people work. It happens when people sit for extended period of time.
+_Setting:_ This interaction happens on the chair of people's main work station. It happens when people sit for too long.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ This device is desinge for 
 
 _Activity:_ What is happening between the actors?
 
