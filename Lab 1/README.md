@@ -182,7 +182,7 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ This interaction happens on the chair of people's main work station. It happens when people sit for too long.
 
-_Players:_ This device is desinge for 
+_Players:_ This device is designed for people who often sit for extended of time during works.
 
 _Activity:_ What is happening between the actors?
 
