@@ -216,9 +216,7 @@ The link below is for the intial set-up video.
 ## Part E. Costume the device
 
 
-\*\***Include sketches of what your device might look like here.**\*\*
-
-![IMG_0532](https://user-images.githubusercontent.com/39501842/132288815-fdb15b8f-8565-4620-81ee-3212e82f3a23.jpg)
+![IMG_0542](https://user-images.githubusercontent.com/39501842/133191550-f5fdfb57-c25b-431e-a79a-a53667b0e54c.jpg)
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
