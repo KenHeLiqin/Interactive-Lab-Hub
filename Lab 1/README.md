@@ -189,17 +189,8 @@ _Activity:_ The device is a chair have two main functions: 1) reminds people to 
 1) The chair have one group of pressure sensor on the seat. The sensor can detect if a person sit down. Once a person sit down, the chair start to time how long that person has sat. After 30 minutes, the chair’s armrest will start to glow dim white light. As time passes, the white light will become brighter and brighter. After 2 hours, the light gradually turns yellow. After 3 hours, the light turns into red to signal the sense of urgency to stand. Once that person stand up, the light will gradually fade away. The light will completely gone dark after that person leave the chair for 5 minutes. The intensity of the light allow that person to be conscious about how long they have sat.
 2) The chair have another group of sensor on the backrest. Those sensor can analyze the sitting posture of that person. Since a good sitting posture is to lean our back against the backrest, if those sensor on the backrest does not detect that person, it means that person is sitting in a bad posture. Then chair will then vibrate to notify that person. This interaction is much more intrusive than the light because having a bad posture put severe stress on our body and it is much easier for that person to adjust.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ 1) allow the person who sit on the chair to realize the passage of time, and remind that person to stand up. 2)correct the bad sitting posture.
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-
-\*\***Describe your setting, players, activity and goals here.**\*\*
-
-Sitting too long has become the unhealthy byproduct of our modern life. Students often sit for hours when studying; most white-collar workers, engineers, and designers sit and stare at the screen for most of their working hours. Many of us are well aware of the detrimental health effects for sitting too much, and we want to change. 
-
-A chair that glows different color of light to remind people the amount of time they have sit  might be a suitable tool. The chair is normal when it is empty. After a person sit for 30 minutes, the armrest glows dim white light. As that person sit for longer, the light become brighter. After two hours, the light turns yellow, reminding the person that he or she has sat for too long. After 4 hours, the light turn red, giving the sense of urgency to stand up. 
-
-Light is a good medium for this reminder because 1) light's presence can be continuous. Apple watch have a function that remind people to stand up by pushing a notification. However, it is unlikely that the moment of the arrival of the notification is the moment people can stand up. For example, if the notification arrives when people are writing emails, they are unlikely to stop their work and stand up even though they agree they should stand up. After writing the email, people often forgot about the reminder and jump to the next task. The continous presence of light can be constant reminder that it is time to stand up. 2) Light is not too salient that it distracts people. For sound, if the chair start beeping, people might be annoyed. However, people might be able to notice the light while still feeling comfortable to continue working.
 
 \*\***Include a picture of your storyboard here**\*\*
 
@@ -208,16 +199,7 @@ Light is a good medium for this reminder because 1) light's presence can be cont
 ![IMG_0522](https://user-images.githubusercontent.com/39501842/132282371-dc0f48aa-6494-428b-97a2-f77bec9b4148.jpg)
 
 
-
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-
-\*\***Summarize feedback you got here.**\*\*
-
-The light might still be annoying to people, so they will turn it off.
-
 ## Part B. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
