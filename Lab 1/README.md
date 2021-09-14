@@ -114,9 +114,6 @@ If you run into technical issues with this tool, you can also use a light switch
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
 
 The link below is for the intial set-up video.
 [Here](https://drive.google.com/file/d/1gTOhumrUucZF266K_e280N_XXyecaX0l/view?usp=sharing)
@@ -209,39 +206,19 @@ When people are trying to focus on the work on the screen, the constant light re
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+It will be great if I can pre-set a routine for light.
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
 
 The link below is for the intial set-up video.
 [Here](https://drive.google.com/file/d/1gTOhumrUucZF266K_e280N_XXyecaX0l/view?usp=sharing)
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
-
-
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
-
-Create a clear space on the armrest to place the light stripe inside, so that the light source is not directly in contact with the arms.
 
 ![IMG_0532](https://user-images.githubusercontent.com/39501842/132288815-fdb15b8f-8565-4620-81ee-3212e82f3a23.jpg)
 
@@ -253,8 +230,7 @@ Create a clear space on the armrest to place the light stripe inside, so that th
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-Video of my prototyped interaction.[Here](https://drive.google.com/file/d/1ccfGLHIn01EQEtlDat1CpFqsa2bJnmGO/view?usp=sharing)
+Video of my interaction.[Here](https://drive.google.com/file/d/1ccfGLHIn01EQEtlDat1CpFqsa2bJnmGO/view?usp=sharing)
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+ 
 
