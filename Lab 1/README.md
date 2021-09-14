@@ -195,17 +195,13 @@ _Goals:_ Improve the health of people who sit for too long by 1) allowing the pe
 
 ## Part B. Act out the Interaction
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
 When people are trying to focus on the work on the screen, the constant light reminder that they need to stand up is a bit annoying.
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+It is quite easy to notice the light. However, if the light is too salient, it becomes annoying and distracting. Therefore, I will dim the light to decrease the salience of the light signal.
 
 ## Part C. Prototype the device
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
-
+\*\***feedback for Tinkerbelle.**\*\*
 It will be great if I can pre-set a routine for the light.
 
 ## Part D. Wizard the device
@@ -220,6 +216,12 @@ The link below is for the intial set-up video.
 
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Because pressure sensor can be hidden easily under seat and backrest (like the one used in car seat), it can achieve my goal of sense of the presence of a person.
+
+For the light, I put a clear plastic box above the light stripe because if I do not want people to get in direct contact with the light stripe. Also because the box is clear, the light will still emit through the box and be visible.
+
+There is an on/off switch if the user want to turn off the functions.
 
 
 ## Part F. Record
