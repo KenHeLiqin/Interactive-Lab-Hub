@@ -164,6 +164,8 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+The feedbacks I got are 1) it is ok for the interaction to be more intrusive since it should act as a push for people to stand up. 2) If people find the light annoying, the chair can have button. When peole want to express "they acknolwedge the reminder, but they still want to continue to work", they can push the button.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -178,7 +180,7 @@ Do last week’s assignment again, but this time:
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting: This interaction happens on the chair where people work. It happens when people sit for extended period of time.
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
