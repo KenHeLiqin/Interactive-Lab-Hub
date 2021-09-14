@@ -206,8 +206,8 @@ It will be great if I can pre-set a routine for the light.
 
 ## Part D. Wizard the device
 
-The link below is for the intial set-up video.
-[Here](https://drive.google.com/file/d/1gTOhumrUucZF266K_e280N_XXyecaX0l/view?usp=sharing)
+The link below is for the set-up video.
+[Here](https://drive.google.com/file/d/1ZM6KIxkFbvsE0qNS3JRxOiUdie85V91G/view?usp=sharing)
 
 ## Part E. Costume the device
 
@@ -228,7 +228,7 @@ There is an on/off switch if the user want to turn off the functions.
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-Video of my interaction.[Here](https://drive.google.com/file/d/1ccfGLHIn01EQEtlDat1CpFqsa2bJnmGO/view?usp=sharing)
+Video of my interaction.[Here](https://drive.google.com/file/d/1oNjzjC6J5JelWL2z-4wdPN3ptAmCXr-f/view?usp=sharing)
 
  
 
