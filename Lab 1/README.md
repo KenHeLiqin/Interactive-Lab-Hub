@@ -189,7 +189,7 @@ _Activity:_ The device is a chair have two main functions: 1) reminds people to 
 1) The chair have one group of pressure sensor on the seat. The sensor can detect if a person sit down. Once a person sit down, the chair start to time how long that person has sat. After 30 minutes, the chair’s armrest will start to glow dim white light. As time passes, the white light will become brighter and brighter. After 2 hours, the light gradually turns yellow. After 3 hours, the light turns into red to signal the sense of urgency to stand. Once that person stand up, the light will gradually fade away. The light will completely gone dark after that person leave the chair for 5 minutes. The intensity of the light allow that person to be conscious about how long they have sat.
 2) The chair have another group of sensor on the backrest. Those sensor can analyze the sitting posture of that person. Since a good sitting posture is to lean our back against the backrest, if those sensor on the backrest does not detect that person, it means that person is sitting in a bad posture. Then chair will then vibrate to notify that person. This interaction is much more intrusive than the light because having a bad posture put severe stress on our body and it is much easier for that person to adjust.
 
-_Goals:_ 1) allow the person who sit on the chair to realize the passage of time, and remind that person to stand up. 2)correct the bad sitting posture.
+_Goals:_ Improve the health of people who sit for too long by 1) allowing the person who sit on the chair to realize the passage of time, reminding that person to stand up, correcting the bad sitting posture.
 
 
 \*\***storyboard**\*\*
