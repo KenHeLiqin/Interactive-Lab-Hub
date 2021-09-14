@@ -182,9 +182,12 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ This interaction happens on the chair of people's main work station. It happens when people sit for too long.
 
-_Players:_ This device is designed for people who often sit for extended of time during works.
+_Players:_ This device is designed for people who often sit for extended of time during works but realize sitting for too long is not desirable because of back pain, neck pain, eye strain, etc. They concern about those problems but often forget to stand up and walk around when they are so focused on their work and do not realize the passage of time. 
 
-_Activity:_ What is happening between the actors?
+_Activity:_ The device is a chair have two main functions: 1) reminds people to stand up and 2) help people to maintain a good posture. 
+
+1) The chair have one group of pressure sensor on the seat. The sensor can detect if a person sit down. Once a person sit down, the chair start to time how long that person has sat. After 30 minutes, the chair’s armrest will start to glow dim white light. As time passes, the white light will become brighter and brighter. After 2 hours, the light gradually turns yellow. After 3 hours, the light turns into red to signal the sense of urgency to stand. Once that person stand up, the light will gradually fade away. The light will completely gone dark after that person leave the chair for 5 minutes. The intensity of the light allow that person to be conscious about how long they have sat.
+2) The chair have another group of sensor on the backrest. Those sensor can analyze the sitting posture of that person. Since a good sitting posture is to lean our back against the backrest, if those sensor on the backrest does not detect that person, it means that person is sitting in a bad posture. Then chair will then vibrate to notify that person. This interaction is much more intrusive than the light because having a bad posture put severe stress on our body and it is much easier for that person to adjust.
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
