@@ -192,11 +192,10 @@ _Activity:_ The device is a chair have two main functions: 1) reminds people to 
 _Goals:_ 1) allow the person who sit on the chair to realize the passage of time, and remind that person to stand up. 2)correct the bad sitting posture.
 
 
-\*\***Include a picture of your storyboard here**\*\*
+\*\***storyboard**\*\*
 
-![IMG_0521](https://user-images.githubusercontent.com/39501842/132282315-1845cd70-b3d4-4ce7-b794-8c434181c457.jpg)
-
-![IMG_0522](https://user-images.githubusercontent.com/39501842/132282371-dc0f48aa-6494-428b-97a2-f77bec9b4148.jpg)
+![IMG_0540](https://user-images.githubusercontent.com/39501842/133184305-80c659c9-4911-4545-aaae-516d6f8776ea.jpg)
+![IMG_0541](https://user-images.githubusercontent.com/39501842/133184310-6ee3448e-e44b-4949-96cb-9f36f71bf1ee.jpg)
 
 
 ## Part B. Act out the Interaction
