@@ -6,9 +6,23 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
+
+
+
+
+
+
+
 **Please indicate anyone you collaborated with on this Lab here.**
 
 ## I collaborated with Jiahao Dong for lab 2. All of our work is posted on his github.[Here](https://github.com/JoeD016/Interactive-Lab-Hub/tree/Fall2021/Lab%202)
+
+
+
+
+
+
+
 
 
 
