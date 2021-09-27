@@ -97,15 +97,17 @@ while True:
         day = False
 
     # for demo: day or night
-    if int(hour) > 7 and int(hour) < 19:
+    if int(demo_hour) > 7 and int(demo_hour) < 19:
         day = True
     else:
         day = False
 
+    # for demo: hour to str
+    demo_hour_str = str(demo_hour)
+
 
     # load sun or moon pic
     if current_page == 1:
-        demo_hour_str = str(demo_hour)
 
         if day:
             image = Image.open(cwd + "/pic/sun_" + demo_hour_str + ".jpg") # change 1 to hour
