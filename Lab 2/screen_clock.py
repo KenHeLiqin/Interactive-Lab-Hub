@@ -125,8 +125,6 @@ while True:
 
     # paste day or night background for city.
 
-    if
-
 
     if demo_day:
         background = Image.open(cwd + "/pic/LA.jpg")
