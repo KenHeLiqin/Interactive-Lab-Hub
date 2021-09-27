@@ -84,6 +84,7 @@ while True:
 
     if int(hour) > 12:
         hour = int(hour) - 12
+        hour = str(hour)
 
 
     if current_page == 1:
