@@ -87,7 +87,6 @@ while True:
         hour = int(hour) - 12
         hour = str(hour)
 
-
     if current_page == 1:
         str_test = str(test)
         image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
@@ -99,6 +98,9 @@ while True:
 
     if test == 13:
         test = 0
+
+    background = Image.open(cwd + "/pic/BJ" + str_test + ".jpg")
+    image.paste(background, (0,0,240,135), background)
 
     # Scale the image to the smaller screen dimension
 
