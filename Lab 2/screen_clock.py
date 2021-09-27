@@ -131,7 +131,7 @@ while True:
 
     # paste moon or sun to the background, and set its position
 
-    sun_pos_y = int(((demo_pos - 90)**2)/200)
+    sun_pos_y = int(((demo_pos - 90)**2)/250)
 
     if demo_day: # change demo_day to day
         background.paste(image, (demo_pos, sun_pos_y), image) # change test_pos to light_source_pos.
