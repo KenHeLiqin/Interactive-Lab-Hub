@@ -104,6 +104,7 @@ while True:
     # for demo: hour to str
     demo_hour_str = str(demo_hour)
 
+
     # load sun or moon pic
     if current_page == 1:
 
@@ -130,10 +131,11 @@ while True:
     background = background.resize((240, 135), Image.BICUBIC)
 
     # paste moon or sun to the background, and set its position
+
     if demo_day: # change demo_day to day
-        background.paste(image, (demo_pos,10)) # change test_pos to light_source_pos.
+        background.paste(image, (demo_pos,10), foreground) # change test_pos to light_source_pos.
     else:
-        background.paste(image, (180 ,10))
+        background.paste(image, (180 ,10), foreground)
 
 
     # Scale the image to the smaller screen dimension
