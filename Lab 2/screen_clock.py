@@ -113,12 +113,12 @@ while True:
             image = Image.open(cwd + "/pic/" + demo_hour_str + ".png")
 
         image = image.convert('RGBA')
-        image = image.resize((30, 30), Image.BICUBIC)
+        image = image.resize((45, 45), Image.BICUBIC)
 
         # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-    demo_pos = demo_hour * 20
+    demo_pos = (demo_hour - 8) * 20
 
     background = Image.open(cwd + "/pic/BJ.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
