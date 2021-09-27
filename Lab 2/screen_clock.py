@@ -118,29 +118,29 @@ while True:
         demo_hour = demo_NY_hour
 
     elif list_city[current_city_index] == 'LA':
-        demo_LA_hour = demo_NY_hour - 4
-        if demo_LA_hour < 0:
-            demo_LA_hour += 24
-        if demo_LA_hour >25:
-            demo_LA_hour -= 24
-        demo_hour = demo_LA_hour
+        demo_city_hour = demo_NY_hour - 4
+        if demo_city_hour < 0:
+            demo_city_hour += 24
+        if demo_city_hour >25:
+            demo_city_hour -= 24
+        demo_hour = demo_city_hour
 
     elif list_city[current_city_index] == 'LDN':
-        demo_LA_hour = demo_NY_hour + 5
-        if demo_LA_hour < 0:
-            demo_LA_hour += 24
-        if demo_LA_hour >25:
-            demo_LA_hour -= 24
-        demo_hour = demo_LA_hour
+        demo_city_hour = demo_NY_hour + 5
+        if demo_city_hour < 0:
+            demo_city_hour += 24
+        if demo_city_hour > 25:
+            demo_city_hour -= 24
+        demo_hour = demo_city_hour
 
     elif list_city[current_city_index] == 'BJ':
         demo_hour = demo_NY_hour
-        demo_LA_hour = demo_NY_hour - 12
-        if demo_LA_hour < 0:
-            demo_LA_hour += 24
-        if demo_LA_hour >25:
-            demo_LA_hour -= 24
-        demo_hour = demo_LA_hour
+        demo_city_hour = demo_NY_hour - 12
+        if demo_city_hour < 0:
+            demo_city_hour += 24
+        if demo_city_hour >25:
+            demo_city_hour -= 24
+        demo_hour = demo_city_hour
 
     # for demo: determine current time is daytime or nighttime
     if int(demo_hour) > 7 and int(demo_hour) < 20:
