@@ -122,11 +122,10 @@ while True:
     demo_pos = (demo_hour - 8) * 18
 
     # paste day or night background for city.
-
     if demo_day:
-        background = Image.open(cwd + "/pic/NY_day.jpg")
+        background = Image.open(cwd + "/pic/NY.jpg")
     else:
-        background = Image.open(cwd + "/pic/NY_night.jpg")
+        background = Image.open(cwd + "/pic/NY.jpg")
 
     background = background.resize((240, 135), Image.BICUBIC)
 
