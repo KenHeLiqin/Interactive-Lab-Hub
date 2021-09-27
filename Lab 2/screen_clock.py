@@ -118,7 +118,6 @@ while True:
     # else:
     #     day = False
 
-
     # set city index
     if buttonA.value and (not buttonB.value): # button B pressed
         current_city_index += 1
@@ -129,7 +128,7 @@ while True:
         if current_city_index == -4:
             current_city_index = 0
 
-    # set timezone index
+    # set time to current timezone index
     if list_city[current_city_index] == 'NY':
         demo_hour = demo_NY_hour
 
@@ -142,7 +141,7 @@ while True:
         demo_hour = demo_LA_hour
 
     elif list_city[current_city_index] == 'LDN':
-        demo_LA_hour = demo_NY_hour - 4
+        demo_LA_hour = demo_NY_hour + 5
         if demo_LA_hour < 0:
             demo_LA_hour += 24
         if demo_LA_hour >25:
@@ -151,7 +150,7 @@ while True:
 
     elif list_city[current_city_index] == 'BJ':
         demo_hour = demo_NY_hour
-        demo_LA_hour = demo_NY_hour - 4
+        demo_LA_hour = demo_NY_hour - 12
         if demo_LA_hour < 0:
             demo_LA_hour += 24
         if demo_LA_hour >25:
@@ -205,7 +204,7 @@ while True:
 
     # for demo, changing of hours
     demo_hour_delayer += 1
-    if demo_hour_delayer % 10 == 0:
+    if demo_hour_delayer % 200 == 0:
         demo_NY_hour += 1
         if demo_NY_hour == 25:
             demo_NY_hour = 1
