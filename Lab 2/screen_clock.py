@@ -86,9 +86,8 @@ while True:
         hour = int(hour) - 12
         hour = str(hour)
 
-
     if current_page == 1:
-        image = Image.open(cwd + "/sun_image/" + 'tile00'+ hour + ".png") # change 1 to hour
+        image = Image.open(cwd + "/sun_image/" + hour + ".png") # change 1 to hour
         image = image.convert('RGBA')
         draw = ImageDraw.Draw(image)
         draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
