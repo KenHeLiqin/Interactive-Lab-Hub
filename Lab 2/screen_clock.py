@@ -142,10 +142,10 @@ while True:
 
 
     # for demo, changing of hours
-    test += 1
+    demo_hour += 1
 
-    if test == 13:
-        test = 0
+    if demo_hour == 13:
+        demo_hour = 0
 
 
     # Display image.
