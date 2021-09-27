@@ -100,7 +100,7 @@ while True:
 
     background = Image.open(cwd + "/pic/BJ_1.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    background.paste(image, (10,70))
+    background.paste(image, (120,10))
 
     # Scale the image to the smaller screen dimension
 
