@@ -125,7 +125,7 @@ while True:
     if demo_day:
         background = Image.open(cwd + "/pic/NY.jpg")
     else:
-        background = Image.open(cwd + "/pic/NY.jpg")
+        background = Image.open(cwd + "/pic/NY_night.jpg")
 
     background = background.resize((240, 135), Image.BICUBIC)
 
