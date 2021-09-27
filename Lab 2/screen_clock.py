@@ -176,6 +176,13 @@ while True:
     sun_pos_x = (demo_hour - 8) * 16
     sun_pos_y = int(((sun_pos_x - 90)**2)/250)
 
+    moon_pos_hour = demo_hour - 20
+    if (demo_hour-20) < 0:
+        moon_pos_hour += 24
+    moon_pos_x = moon_pos_hour * 16
+    moon_pos_y = int(((moon_pos_x - 90)**2)/250)
+
+
     # paste moon or sun to the background, and set its position
     if demo_day:
         background.paste(image, (sun_pos_x, sun_pos_y), image)
