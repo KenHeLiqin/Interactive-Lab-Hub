@@ -88,6 +88,7 @@ while True:
 
     test = 1
     if current_page == 1:
+        str_test = str(test)
         image = Image.open(cwd + "/sun_pic/" + test + ".jpg") # change 1 to hour
         # image = image.convert('RGBA')
         draw = ImageDraw.Draw(image)
