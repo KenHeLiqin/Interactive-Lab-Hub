@@ -87,10 +87,12 @@ while True:
         hour = str(hour)
 
     if current_page == 1:
-        image = Image.open(cwd + "/sun_pic/" + hour + ".png") # change 1 to hour
+        image = Image.open(cwd + "/sun_pic/" + hour + ".jpg") # change 1 to hour
         image = image.convert('RGBA')
         draw = ImageDraw.Draw(image)
         draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
+
+
 
     # Scale the image to the smaller screen dimension
     image_ratio = image.width / image.height
