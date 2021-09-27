@@ -119,7 +119,7 @@ while True:
         # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-    demo_pos = (demo_hour - 8) * 15
+    demo_pos = (demo_hour - 8) * 16.3
 
     # paste day or night background for city.
     if demo_day:
