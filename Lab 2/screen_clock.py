@@ -30,6 +30,7 @@ spi = board.SPI()
 # disp = ssd1351.SSD1351(spi, rotation=180,                         # 1.5" SSD1351
 # disp = ssd1351.SSD1351(spi, height=96, y_offset=32, rotation=180, # 1.27" SSD1351
 # disp = ssd1331.SSD1331(spi, rotation=180,                         # 0.96" SSD1331
+
 disp = st7789.ST7789(
     spi,
     cs=cs_pin,
@@ -46,13 +47,11 @@ disp = st7789.ST7789(
 cwd = os.getcwd()
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
-if disp.rotation % 180 == 90:
-    height = disp.width  # we swap height/width to rotate it to landscape!
-    width = disp.height
-else:
-    width = disp.width  # we swap height/width to rotate it to landscape!
-    height = disp.height
+
+height = disp.width  # we swap height/width to rotate it to landscape!
+width = disp.height
 image = Image.new("RGB", (width, height))
+rotation = 90
 
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
