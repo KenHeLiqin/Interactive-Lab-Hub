@@ -42,16 +42,16 @@ disp = st7789.ST7789(
     x_offset=53,
     y_offset=40,
 )
-# pylint: enable=line-too-long
 
-cwd = os.getcwd()
+
 # Create blank image for drawing.
-# Make sure to create image with mode 'RGB' for full color.
 
-height = disp.width  # we swap height/width to rotate it to landscape!
+height = disp.width
 width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
+
+
 
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
@@ -60,11 +60,27 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-image = Image.open(cwd + "/sun_pic/" + "1" +".jpg")
+# Draw some shapes.
+# First define some constants to allow easy resizing of shapes.
+padding = -2
+top = padding
+bottom = height - padding
+# Move left to right keeping track of the current x position for drawing shapes.
+x = 0
+
+# Alternatively load a TTF font.  Make sure the .ttf font file is in the
+# same directory as the python script!
+# Some other nice fonts to try: http://www.dafont.com/bitmap.php
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+
+image = Image.open(cwd + "/sun_pic/" + "1" +".jpg")
+
+cwd = os.getcwd()
 
 # Scale the image to the smaller screen dimension
 image_ratio = image.width / image.height
