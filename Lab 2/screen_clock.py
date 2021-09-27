@@ -7,6 +7,7 @@ import adafruit_rgb_display.st7789 as st7789
 import datetime
 import os
 
+
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
@@ -50,7 +51,6 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image, rotation)
 
-
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 padding = -2
@@ -71,16 +71,9 @@ backlight.value = True
 
 cwd = os.getcwd()
 
-hour_img = []
-for h in range(24):
-    hour_img.append((cwd + "/image/time_" + str(h) + ".jpg"))
-
-
 max_page, min_page = 4, 1
 curr_page = 1
 start_day = 1
-
-
 
 while True:
     # Draw a black filled box to clear the image.
@@ -88,6 +81,10 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
+
+
+
+    # (cwd + "/image/" + str(h) + ".jpg")
 
     # Display image.
     disp.image(image, rotation)
