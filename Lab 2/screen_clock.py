@@ -85,6 +85,7 @@ while True:
 
     if int(hour) > 12:
         hour = int(hour) - 12
+        light_source_pos = hour * 20
         hour = str(hour)
 
     if current_page == 1:
@@ -96,11 +97,11 @@ while True:
         # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-
+    test_pos = test * 20
 
     background = Image.open(cwd + "/pic/BJ_1.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    background.paste(image, (120,10))
+    background.paste(image, (light_source_pos,10)) # change test_pos to light_source_pos.
 
     # Scale the image to the smaller screen dimension
 
