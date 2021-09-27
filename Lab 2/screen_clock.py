@@ -83,14 +83,29 @@ while True:
     date_str, time_str = current_time.split(" ")
     hour, min, sec = time_str.split(":")
 
+    # change 24 hours to 12 hours
     if int(hour) > 12:
         hour = int(hour) - 12
         light_source_pos = hour * 20
         hour = str(hour)
 
+    # detect day or night
+
+    if int(hour) > 7 and int(hour) < 19:
+        day = True
+    else:
+        day = False
+
+
+    # load sun or moon pic
     if current_page == 1:
         str_test = str(test)
-        image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
+
+        if day:
+            image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
+        else:
+            image = Image.open(cwd + "/pic/moon_" + str_test + ".jpg")
+
         image = image.convert('RGBA')
         image = image.resize((30, 30), Image.BICUBIC)
 
