@@ -111,7 +111,7 @@ while True:
     # scaled_width = width
     # scaled_height = image.height * width // image.width
 
-    image = image.resize((10, 10), Image.BICUBIC)
+    image = image.resize((40, 40), Image.BICUBIC)
 
     # # Crop and center the image
     # x = scaled_width // 2 - width // 2
