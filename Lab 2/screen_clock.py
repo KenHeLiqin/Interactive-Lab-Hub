@@ -43,6 +43,7 @@ disp = st7789.ST7789(
 )
 # pylint: enable=line-too-long
 
+cwd = os.getcwd()
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
 if disp.rotation % 180 == 90:
@@ -60,7 +61,7 @@ draw = ImageDraw.Draw(image)
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
-image = Image.open("red.jpg")
+image = Image.open(cwd + "/sun_pic/1" +  + ".jpg")
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
