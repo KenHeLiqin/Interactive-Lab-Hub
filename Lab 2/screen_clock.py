@@ -82,8 +82,8 @@ while True:
     date_str, time_str = current_time.split(" ")
     hour, min, sec = time_str.split(":")
 
-    if hour > 12:
-        hour -= 12
+    if int(hour) > 12:
+        hour = int(hour) - 12
 
 
     if current_page == 1:
