@@ -87,11 +87,10 @@ while True:
         hour = int(hour) - 12
         hour = str(hour)
 
-
     if current_page == 1:
         str_test = str(test)
         image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
-        # image = image.convert('RGBA')
+        image = image.convert('RGBA')
         draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
@@ -102,7 +101,7 @@ while True:
 
     # background = Image.open(cwd + "/pic/BJ.jpg")
     # background = background.resize((240, 135), Image.BICUBIC)
-    # image.paste(background, (0,0,240,135), background)
+    # image.paste(background, offset, background)
 
     # Scale the image to the smaller screen dimension
 
