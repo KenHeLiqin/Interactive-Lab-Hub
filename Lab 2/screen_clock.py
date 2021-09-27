@@ -97,7 +97,7 @@ while True:
 
     test += 1
 
-    if test == 12:
+    if test == 13:
         test = 0
 
     # Scale the image to the smaller screen dimension
