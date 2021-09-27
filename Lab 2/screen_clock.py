@@ -40,11 +40,6 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
-buttonA = digitalio.DigitalInOut(board.D23)
-buttonB = digitalio.DigitalInOut(board.D24)
-buttonA.switch_to_input()
-buttonB.switch_to_input()
-
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
 
@@ -69,17 +64,20 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+
 cwd = os.getcwd()
 
+#
 list_city = ['NY','LA','LDN','BJ']
 current_city_index = 0
-list_timezone = ['US']
-current_timezone_index = 0
+
+# initiate variabl for demo purpose
 demo_NY_hour = 8
 demo_hour = demo_NY_hour
 demo_hour_delayer = 0
@@ -90,6 +88,7 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
 
+    ## for real hours
     # est = pytz.timezone('US/Eastern')
     # est_now = datetime.now(est)
     # strDate = est_now.strftime('%A %m %b %Y')
@@ -118,7 +117,7 @@ while True:
     # else:
     #     day = False
 
-    # set city index
+    # click button to change city/timezone
     if buttonA.value and (not buttonB.value): # button B pressed
         current_city_index += 1
         if current_city_index == 4:
@@ -157,9 +156,7 @@ while True:
             demo_LA_hour -= 24
         demo_hour = demo_LA_hour
 
-
-
-    # for demo: day or night
+    # for demo: determine current time is daytime or nighttime
     if int(demo_hour) > 7 and int(demo_hour) < 20:
         demo_day = True
     else:
@@ -168,8 +165,7 @@ while True:
     # for demo: hour to str
     demo_hour_str = str(demo_hour)
 
-    # load sun or moon pic
-
+    # load sun or moon pic according to time
     if demo_day:
         image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg")
     else:
@@ -181,10 +177,8 @@ while True:
     # draw = ImageDraw.Draw(image)
     # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-    demo_pos = (demo_hour - 8) * 16
 
-    # paste day or night background for city.
-
+    # paste day or night background for city selected
     if demo_day:
         background = Image.open(cwd + "/pic/"+ list_city[current_city_index] +".jpg")
     else:
@@ -193,18 +187,20 @@ while True:
 
     background = background.resize((240, 135), Image.BICUBIC)
 
+    # calculate the position of the sun.
+    sun_pos_x = (demo_hour - 8) * 16
+    sun_pos_y = int(((sun_pos_x - 90)**2)/250)
+
     # paste moon or sun to the background, and set its position
-
-    sun_pos_y = int(((demo_pos - 90)**2)/250)
-
-    if demo_day: # change demo_day to day
-        background.paste(image, (demo_pos, sun_pos_y), image) # change test_pos to light_source_pos.
+    if demo_day:
+        background.paste(image, (sun_pos_x, sun_pos_y), image)
     else:
         background.paste(image, (180 ,10), image)
 
-    # for demo, changing of hours
+    # for demo, determine how fast to change hours, set slowness.
+    slowness = 10
     demo_hour_delayer += 1
-    if demo_hour_delayer % 10 == 0:
+    if demo_hour_delayer % slowness == 0:
         demo_NY_hour += 1
         if demo_NY_hour == 25:
             demo_NY_hour = 1
