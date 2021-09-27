@@ -86,8 +86,6 @@ while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
-
     ## for real hours
     # est = pytz.timezone('US/Eastern')
     # est_now = datetime.now(est)
@@ -104,18 +102,6 @@ while True:
     current_time = time.strftime("%m/%d/%Y %H:%M:%S")
     date_str, time_str = current_time.split(" ")
     hour, min, sec = time_str.split(":")
-
-    # change 24 hours to 12 hours
-    # if int(hour) > 12:
-    #     hour_12 = int(hour) - 12
-    #     light_source_pos = hour * 20
-    #     hour_12 = str(hour)
-
-    # # detect day or night
-    # if int(hour) > 7 and int(hour) < 19:
-    #     day = True
-    # else:
-    #     day = False
 
     # click button to change city/timezone
     if buttonA.value and (not buttonB.value): # button B pressed
@@ -184,10 +170,9 @@ while True:
     else:
         background = Image.open(cwd + "/pic/"+ list_city[current_city_index] +"_night.jpg")
 
-
     background = background.resize((240, 135), Image.BICUBIC)
 
-    # calculate the position of the sun.
+    # calculate the position of the sun and moon.
     sun_pos_x = (demo_hour - 8) * 16
     sun_pos_y = int(((sun_pos_x - 90)**2)/250)
 
@@ -195,7 +180,7 @@ while True:
     if demo_day:
         background.paste(image, (sun_pos_x, sun_pos_y), image)
     else:
-        background.paste(image, (180 ,10), image)
+        background.paste(image, (sun_pos_x ,sun_pos_y), image)
 
     # for demo, determine how fast to change hours, set slowness.
     slowness = 10
