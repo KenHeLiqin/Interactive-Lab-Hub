@@ -79,29 +79,30 @@ backlight.value = True
 
 cwd = os.getcwd()
 
-while True:
+# while True:
 
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    image = Image.open(cwd + "/sun_pic/" + "1" +".jpg")
+draw.rectangle((0, 0, width, height), outline=0, fill=0)
+image = Image.open(cwd + "/sun_pic/" + "1" +".jpg")
 
-    # Scale the image to the smaller screen dimension
-    image_ratio = image.width / image.height
-    screen_ratio = width / height
-    if screen_ratio < image_ratio:
-        scaled_width = image.width * height // image.height
-        scaled_height = height
-    else:
-        scaled_width = width
-        scaled_height = image.height * width // image.width
-    image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
+# Scale the image to the smaller screen dimension
+image_ratio = image.width / image.height
+screen_ratio = width / height
 
-    # Crop and center the image
-    x = scaled_width // 2 - width // 2
-    y = scaled_height // 2 - height // 2
-    image = image.crop((x, y, x + width, y + height))
+if screen_ratio < image_ratio:
+    scaled_width = image.width * height // image.height
+    scaled_height = height
+else:
+    scaled_width = width
+    scaled_height = image.height * width // image.width
+image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
-    # Display image.
-    disp.image(image)
+# Crop and center the image
+x = scaled_width // 2 - width // 2
+y = scaled_height // 2 - height // 2
+image = image.crop((x, y, x + width, y + height))
+
+# Display image.
+disp.image(image)
 
 
 # # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
