@@ -126,7 +126,7 @@ while True:
         demo_hour = demo_city_hour
 
     elif list_city[current_city_index] == 'LDN':
-        demo_city_hour = demo_NY_hour + 5
+        demo_city_hour = demo_NY_hour - 19
         if demo_city_hour < 0:
             demo_city_hour += 24
         if demo_city_hour > 25:
@@ -138,7 +138,7 @@ while True:
         demo_city_hour = demo_NY_hour - 12
         if demo_city_hour < 0:
             demo_city_hour += 24
-        if demo_city_hour >25:
+        if demo_city_hour > 25:
             demo_city_hour -= 24
         demo_hour = demo_city_hour
 
