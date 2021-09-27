@@ -101,7 +101,7 @@ while True:
 
     background = Image.open(cwd + "/pic/BJ_1.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    background.paste(image, (light_source_pos,10)) # change test_pos to light_source_pos.
+    background.paste(image, (test_pos,10)) # change test_pos to light_source_pos.
 
     # Scale the image to the smaller screen dimension
 
