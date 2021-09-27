@@ -204,7 +204,7 @@ while True:
 
     # for demo, changing of hours
     demo_hour_delayer += 1
-    if demo_hour_delayer % 200 == 0:
+    if demo_hour_delayer % 10 == 0:
         demo_NY_hour += 1
         if demo_NY_hour == 25:
             demo_NY_hour = 1
