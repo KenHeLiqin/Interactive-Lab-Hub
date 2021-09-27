@@ -76,11 +76,12 @@ buttonB.switch_to_input()
 
 cwd = os.getcwd()
 
-list_city = ['LA','LDN','BJ','NY']
+list_city = ['NY','LA','LDN','BJ']
 current_city_index = 0
 list_timezone = ['US']
 current_timezone_index = 0
-demo_hour = 1
+demo_NY_hour = 8
+demo_hour = demo_NY_hour
 demo_hour_delayer = 0
 
 while True:
@@ -129,6 +130,13 @@ while True:
             current_city_index = 0
 
     # set timezone index
+    if list_city[current_city_index] == 'NY':
+
+    elif list_city[current_city_index] == 'LA':
+
+    elif list_city[current_city_index] == 'LDN':
+
+    elif list_city[current_city_index] == 'BJ':
 
 
     # for demo: day or night
@@ -174,28 +182,12 @@ while True:
     else:
         background.paste(image, (180 ,10), image)
 
-    # Scale the image to the smaller screen dimension
-
-    # image_ratio = image.width / image.height
-    # screen_ratio = width / height
-    # if screen_ratio < image_ratio:
-    #     scaled_width = image.width * height // image.height
-    #     scaled_height = height
-    # else:
-    # scaled_width = width
-    # scaled_height = image.height * width // image.width
-
-    # # Crop and center the image
-    # x = scaled_width // 2 - width // 2
-    # y = scaled_height // 2 - height // 2
-    # image = image.crop((x, y, x + width, y + height))
-
     # for demo, changing of hours
     demo_hour_delayer += 1
     if demo_hour_delayer % 10 == 0:
-        demo_hour += 1
-        if demo_hour == 25:
-            demo_hour = 1
+        demo_NY_hour += 1
+        if demo_NY_hour == 25:
+            demo_NY_hour = 1
 
     # Display image.
     disp.image(background, rotation)
