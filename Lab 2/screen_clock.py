@@ -85,9 +85,9 @@ while True:
 
     # change 24 hours to 12 hours
     if int(hour) > 12:
-        hour = int(hour) - 12
+        hour_12 = int(hour) - 12
         light_source_pos = hour * 20
-        hour = str(hour)
+        hour_12 = str(hour)
 
     # detect day or night
 
