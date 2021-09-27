@@ -67,6 +67,10 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
 
 cwd = os.getcwd()
 
@@ -104,28 +108,33 @@ while True:
     # for demo: hour to str
     demo_hour_str = str(demo_hour)
 
-
     # load sun or moon pic
-    if current_page == 1:
 
-        if demo_day:
-            image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg")
-        else:
-            image = Image.open(cwd + "/pic/" + demo_hour_str + ".png")
+    if demo_day:
+        image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg")
+    else:
+        image = Image.open(cwd + "/pic/" + demo_hour_str + ".png")
 
-        image = image.convert('RGBA')
-        image = image.resize((45, 45), Image.BICUBIC)
+    image = image.convert('RGBA')
+    image = image.resize((45, 45), Image.BICUBIC)
 
-        # draw = ImageDraw.Draw(image)
-        # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
+    # draw = ImageDraw.Draw(image)
+    # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
     demo_pos = (demo_hour - 8) * 16
 
     # paste day or night background for city.
+
+    if
+
+
     if demo_day:
         background = Image.open(cwd + "/pic/LA.jpg")
     else:
         background = Image.open(cwd + "/pic/LA_night.jpg")
+
+
+
 
     background = background.resize((240, 135), Image.BICUBIC)
 
@@ -153,7 +162,6 @@ while True:
     # x = scaled_width // 2 - width // 2
     # y = scaled_height // 2 - height // 2
     # image = image.crop((x, y, x + width, y + height))
-
 
     # for demo, changing of hours
     demo_hour += 1
