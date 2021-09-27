@@ -71,6 +71,7 @@ backlight.value = True
 cwd = os.getcwd()
 
 current_page = 1
+test = 1
 
 while True:
     # Draw a black filled box to clear the image.
@@ -86,7 +87,7 @@ while True:
         hour = int(hour) - 12
         hour = str(hour)
 
-    test = 1
+
     if current_page == 1:
         str_test = str(test)
         image = Image.open(cwd + "/sun_pic/" + str_test + ".jpg") # change 1 to hour
