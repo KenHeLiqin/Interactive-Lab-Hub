@@ -118,7 +118,7 @@ while True:
         # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-    demo_pos = (demo_hour - 8) * 17
+    demo_pos = (demo_hour - 8) * 18
 
     background = Image.open(cwd + "/pic/BJ.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
@@ -128,7 +128,7 @@ while True:
     if demo_day: # change demo_day to day
         background.paste(image, (demo_pos,10)) # change test_pos to light_source_pos.
     else:
-        background.paste(image, (200,10))
+        background.paste(image, (180 ,10))
 
 
     # Scale the image to the smaller screen dimension
