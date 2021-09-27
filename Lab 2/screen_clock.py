@@ -51,8 +51,6 @@ width = disp.height
 image = Image.new("RGB", (width, height))
 rotation = 90
 
-
-
 # Get drawing object to draw on image.
 draw = ImageDraw.Draw(image)
 
@@ -88,12 +86,15 @@ image = Image.open(cwd + "/sun_pic/" + "1" +".jpg")
 image_ratio = image.width / image.height
 screen_ratio = width / height
 
-if screen_ratio < image_ratio:
-    scaled_width = image.width * height // image.height
-    scaled_height = height
-else:
-    scaled_width = width
-    scaled_height = image.height * width // image.width
+# if screen_ratio < image_ratio:
+#     scaled_width = image.width * height // image.height
+#     scaled_height = height
+# else:
+#     scaled_width = width
+#     scaled_height = image.height * width // image.width
+
+     scaled_width = 10
+     scaled_height = 10
 image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
 # Crop and center the image
