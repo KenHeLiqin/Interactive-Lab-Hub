@@ -82,7 +82,9 @@ while True:
     date_str, time_str = current_time.split(" ")
     hour, min, sec = time_str.split(":")
 
-    print(hour)
+    if hour > 12:
+        hour -= 12
+
 
     if current_page == 1:
         image = Image.open(cwd + "/sun_image/" + 'tile00'+ hour + ".png") # change 1 to hour
