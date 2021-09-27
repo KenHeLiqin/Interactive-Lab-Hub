@@ -120,9 +120,12 @@ while True:
 
     demo_pos = (demo_hour - 8) * 18
 
-    background = Image.open(cwd + "/pic/BJ.jpg")
-    background = background.resize((240, 135), Image.BICUBIC)
-
+    # paste day or night background for city.
+    if demo_day:
+        background = Image.open(cwd + "/pic/NY_day.jpg")
+    else:
+        background = Image.open(cwd + "/pic/NY_night.jpg")
+        background = background.resize((240, 135), Image.BICUBIC)
 
     # paste moon or sun to the background, and set its position
     if demo_day: # change demo_day to day
