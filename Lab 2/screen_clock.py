@@ -103,7 +103,7 @@ y = scaled_height // 2 - height // 2
 image = image.crop((x, y, x + width, y + height))
 
 # Display image.
-disp.image(image)
+disp.image(image,rotation)
 
 
 # # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
