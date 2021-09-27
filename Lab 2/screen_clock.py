@@ -84,36 +84,30 @@ while True:
     hour, min, sec = time_str.split(":")
 
     # change 24 hours to 12 hours
-    if int(hour) > 12:
-        hour_12 = int(hour) - 12
-        light_source_pos = hour * 20
-        hour_12 = str(hour)
+    # if int(hour) > 12:
+    #     hour_12 = int(hour) - 12
+    #     light_source_pos = hour * 20
+    #     hour_12 = str(hour)
 
-
-    # detect day or night
-    if int(hour) > 7 and int(hour) < 19:
-        day = True
-    else:
-        day = False
+    # # detect day or night
+    # if int(hour) > 7 and int(hour) < 19:
+    #     day = True
+    # else:
+    #     day = False
 
     # for demo: day or night
-    if int(demo_hour) > 7 and int(demo_hour) < 19:
-        day = True
+    if int(demo_hour) > 7 and int(demo_hour) < 20:
+        demo_day = True
     else:
-        day = False
+        demo_day = False
 
     # for demo: hour to str
     demo_hour_str = str(demo_hour)
 
-
     # load sun or moon pic
     if current_page == 1:
 
-        if day:
-            image = Image.open(cwd + "/pic/sun_" + demo_hour_str + ".jpg") # change 1 to hour
-        else:
-            image = Image.open(cwd + "/pic/moon_" + demo_hour_str + ".png")
-
+        image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg") # change 1 to hour
         image = image.convert('RGBA')
         image = image.resize((30, 30), Image.BICUBIC)
 
@@ -122,9 +116,16 @@ while True:
 
     demo_pos = demo_hour * 20
 
-    background = Image.open(cwd + "/pic/BJ_1.jpg")
+    background = Image.open(cwd + "/pic/BJ.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    background.paste(image, (demo_pos,10)) # change test_pos to light_source_pos.
+
+
+    # paste moon or sun to the background, and set its position
+    if demo_day: # change demo_day to day
+        background.paste(image, (demo_pos,10)) # change test_pos to light_source_pos.
+    else:
+        background.paste(image, (200,10))
+
 
     # Scale the image to the smaller screen dimension
 
@@ -146,8 +147,8 @@ while True:
     # for demo, changing of hours
     demo_hour += 1
 
-    if demo_hour == 13:
-        demo_hour = 0
+    if demo_hour == 25:
+        demo_hour = 1
 
 
     # Display image.
