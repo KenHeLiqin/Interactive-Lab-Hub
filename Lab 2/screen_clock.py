@@ -71,7 +71,7 @@ backlight.value = True
 cwd = os.getcwd()
 
 current_page = 1
-test = 1
+demo_hour = 1
 
 while True:
     # Draw a black filled box to clear the image.
@@ -89,8 +89,14 @@ while True:
         light_source_pos = hour * 20
         hour_12 = str(hour)
 
-    # detect day or night
 
+    # detect day or night
+    if int(hour) > 7 and int(hour) < 19:
+        day = True
+    else:
+        day = False
+
+    # for demo: day or night
     if int(hour) > 7 and int(hour) < 19:
         day = True
     else:
@@ -99,12 +105,12 @@ while True:
 
     # load sun or moon pic
     if current_page == 1:
-        str_test = str(test)
+        demo_hour_str = str(demo_hour)
 
         if day:
-            image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
+            image = Image.open(cwd + "/pic/sun_" + demo_hour_str + ".jpg") # change 1 to hour
         else:
-            image = Image.open(cwd + "/pic/moon_" + str_test + ".jpg")
+            image = Image.open(cwd + "/pic/moon_" + demo_hour_str + ".jpg")
 
         image = image.convert('RGBA')
         image = image.resize((30, 30), Image.BICUBIC)
@@ -112,11 +118,11 @@ while True:
         # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
-    test_pos = test * 20
+    demo_pos = demo_hour * 20
 
     background = Image.open(cwd + "/pic/BJ_1.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    background.paste(image, (test_pos,10)) # change test_pos to light_source_pos.
+    background.paste(image, (demo_pos,10)) # change test_pos to light_source_pos.
 
     # Scale the image to the smaller screen dimension
 
@@ -135,10 +141,13 @@ while True:
     # image = image.crop((x, y, x + width, y + height))
 
 
+    # for demo, changing of hours
     test += 1
 
     if test == 13:
         test = 0
+
+
     # Display image.
     disp.image(background, rotation)
     time.sleep(1)
