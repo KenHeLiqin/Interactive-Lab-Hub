@@ -6,6 +6,8 @@ from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 import datetime
 import os
+from datetime import datetime, timezone
+import pytz
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -75,7 +77,9 @@ buttonB.switch_to_input()
 cwd = os.getcwd()
 
 list_city = ['LA','LDN','BJ','NY']
-current_page_index = 0
+current_city_index = 0
+list_timezone = ['US']
+current_timezone_index = 0
 demo_hour = 1
 
 while True:
@@ -83,6 +87,18 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
+
+    # est = pytz.timezone('US/Eastern')
+    # est_now = datetime.now(est)
+    # strDate = est_now.strftime('%A %m %b %Y')
+    # strTime = est_now.strftime('%H: %M: %S')
+    # strhour = est_now.strftime('%H')
+    # Hour = int(strhour)
+    # strmin = est_now.strftime('%M')
+    # Min = int(strmin)
+    #
+    # strsec = est_now.strftime('%S')
+    # Sec = int(strsec)
 
     current_time = time.strftime("%m/%d/%Y %H:%M:%S")
     date_str, time_str = current_time.split(" ")
@@ -99,6 +115,19 @@ while True:
     #     day = True
     # else:
     #     day = False
+
+
+    # set city index
+    if buttonA.value and (not buttonB.value): # button B pressed
+        current_city_index += 1
+        if current_city_index == 4:
+            current_city_index = 0
+    elif (not buttonA.value) and buttonB.value: # button A pressed
+        current_city_index -= 1
+        if current_city_index == -4:
+            current_city_index = 0
+
+    # set timezone index
 
 
     # for demo: day or night
@@ -127,20 +156,10 @@ while True:
 
     # paste day or night background for city.
 
-    if buttonA.value and (not buttonB.value): # button B pressed
-        current_page_index += 1
-        if current_page_index == 4:
-            current_page_index = 0
-    elif (not buttonA.value) and buttonB.value: # button A pressed
-        current_page_index -= 1
-        if current_page_index == -4:
-            current_page_index = 0
-
-
     if demo_day:
-        background = Image.open(cwd + "/pic/"+ list_city[current_page_index] +".jpg")
+        background = Image.open(cwd + "/pic/"+ list_city[current_city_index] +".jpg")
     else:
-        background = Image.open(cwd + "/pic/"+ list_city[current_page_index] +"_night.jpg")
+        background = Image.open(cwd + "/pic/"+ list_city[current_city_index] +"_night.jpg")
 
 
     background = background.resize((240, 135), Image.BICUBIC)
