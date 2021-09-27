@@ -74,7 +74,8 @@ buttonB.switch_to_input()
 
 cwd = os.getcwd()
 
-current_page = 1
+list_city = ['LA','LDN','BJ','NY']
+current_page_index = 0
 demo_hour = 1
 
 while True:
@@ -98,6 +99,7 @@ while True:
     #     day = True
     # else:
     #     day = False
+
 
     # for demo: day or night
     if int(demo_hour) > 7 and int(demo_hour) < 20:
@@ -125,13 +127,15 @@ while True:
 
     # paste day or night background for city.
 
+    if buttonA.value and (not buttonB.value): # button B pressed
+        current_page_index += 1
+    elif (not buttonA.value) and buttonB.value: # button A pressed
+        current_page_index -= 1
 
     if demo_day:
-        background = Image.open(cwd + "/pic/LA.jpg")
+        background = Image.open(cwd + "/pic/"+ list_city[current_page_index] +".jpg")
     else:
-        background = Image.open(cwd + "/pic/LA_night.jpg")
-
-
+        background = Image.open(cwd + "/pic/"+ list_city[current_page_index] +"_night.jpg")
 
 
     background = background.resize((240, 135), Image.BICUBIC)
