@@ -189,7 +189,7 @@ while True:
         background.paste(image, (moon_pos_x ,moon_pos_y), image)
 
     # for demo, determine how fast to change hours, set slowness.
-    slowness = 100
+    slowness = 10000
     demo_hour_delayer += 1
     if demo_hour_delayer % slowness == 0:
         demo_NY_hour += 1
