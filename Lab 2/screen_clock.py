@@ -107,7 +107,11 @@ while True:
     # load sun or moon pic
     if current_page == 1:
 
-        image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg") # change 1 to hour
+        if demo_day:
+            image = Image.open(cwd + "/pic/" + demo_hour_str + ".jpg")
+        else:
+            image = Image.open(cwd + "/pic/" + demo_hour_str + ".png")
+
         image = image.convert('RGBA')
         image = image.resize((30, 30), Image.BICUBIC)
 
