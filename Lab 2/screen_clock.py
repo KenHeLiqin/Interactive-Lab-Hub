@@ -81,6 +81,7 @@ current_city_index = 0
 list_timezone = ['US']
 current_timezone_index = 0
 demo_hour = 1
+demo_hour_delayer = 0
 
 while True:
     # Draw a black filled box to clear the image.
@@ -190,12 +191,13 @@ while True:
     # image = image.crop((x, y, x + width, y + height))
 
     # for demo, changing of hours
-    demo_hour += 1
-
-    if demo_hour == 25:
-        demo_hour = 1
+    demo_hour_delayer += 1
+    if demo_hour_delayer % 10 == 0:
+        demo_hour += 1
+        if demo_hour == 25:
+            demo_hour = 1
 
     # Display image.
     disp.image(background, rotation)
-    time.sleep(0.05)
+    time.sleep(0.1)
 
