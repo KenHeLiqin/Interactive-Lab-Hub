@@ -91,14 +91,15 @@ while True:
         str_test = str(test)
         image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
         image = image.convert('RGBA')
-        # draw = ImageDraw.Draw(image)
+        image = image.resize((30, 30), Image.BICUBIC)
 
+        # draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
 
     background = Image.open(cwd + "/pic/BJ.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
-    image.paste(background, offset, background)
+    background.paste(image)
 
     # Scale the image to the smaller screen dimension
 
@@ -111,13 +112,10 @@ while True:
     # scaled_width = width
     # scaled_height = image.height * width // image.width
 
-    image = image.resize((240, 135), Image.BICUBIC)
-
     # # Crop and center the image
     # x = scaled_width // 2 - width // 2
     # y = scaled_height // 2 - height // 2
     # image = image.crop((x, y, x + width, y + height))
-
 
 
     test += 1
@@ -125,6 +123,6 @@ while True:
     if test == 13:
         test = 0
     # Display image.
-    disp.image(image, rotation)
+    disp.image(background, rotation)
     time.sleep(1)
 
