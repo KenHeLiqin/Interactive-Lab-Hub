@@ -129,8 +129,13 @@ while True:
 
     if buttonA.value and (not buttonB.value): # button B pressed
         current_page_index += 1
+        if current_page_index == 4:
+            current_page_index = 0
     elif (not buttonA.value) and buttonB.value: # button A pressed
         current_page_index -= 1
+        if current_page_index == -4:
+            current_page_index = 0
+
 
     if demo_day:
         background = Image.open(cwd + "/pic/"+ list_city[current_page_index] +".jpg")
