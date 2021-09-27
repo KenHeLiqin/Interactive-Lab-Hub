@@ -162,5 +162,5 @@ while True:
 
     # Display image.
     disp.image(background, rotation)
-    time.sleep(1)
+    time.sleep(0.5)
 
