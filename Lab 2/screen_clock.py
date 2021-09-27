@@ -99,7 +99,7 @@ while True:
     if test == 13:
         test = 0
 
-    background = Image.open(cwd + "/pic/BJ" + str_test + ".jpg")
+    background = Image.open(cwd + "/pic/BJ.jpg")
     image.paste(background, (0,0,240,135), background)
 
     # Scale the image to the smaller screen dimension
