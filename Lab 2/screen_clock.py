@@ -90,7 +90,7 @@ while True:
 
     if current_page == 1:
         str_test = str(test)
-        image = Image.open(cwd + "/sun_pic/" + str_test + ".jpg") # change 1 to hour
+        image = Image.open(cwd + "/pic/sun_" + str_test + ".jpg") # change 1 to hour
         # image = image.convert('RGBA')
         draw = ImageDraw.Draw(image)
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
