@@ -131,13 +131,12 @@ while True:
 
     # paste moon or sun to the background, and set its position
 
-    sun_pos_y = (demo_pos - 90)**2
+    sun_pos_y = ((demo_pos - 90)**2)/100
 
     if demo_day: # change demo_day to day
         background.paste(image, (demo_pos, sun_pos_y), image) # change test_pos to light_source_pos.
     else:
         background.paste(image, (180 ,10), image)
-
 
     # Scale the image to the smaller screen dimension
 
