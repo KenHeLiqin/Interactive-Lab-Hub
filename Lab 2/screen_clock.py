@@ -93,8 +93,8 @@ screen_ratio = width / height
 #     scaled_width = width
 #     scaled_height = image.height * width // image.width
 
-     scaled_width = 10
-     scaled_height = 10
+scaled_width = 10
+scaled_height = 10
 image = image.resize((scaled_width, scaled_height), Image.BICUBIC)
 
 # Crop and center the image
