@@ -59,12 +59,12 @@ draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image)
 
 # Draw some shapes.
-# First define some constants to allow easy resizing of shapes.
-padding = -2
-top = padding
-bottom = height - padding
-# Move left to right keeping track of the current x position for drawing shapes.
-x = 0
+# # First define some constants to allow easy resizing of shapes.
+# padding = -2
+# top = padding
+# bottom = height - padding
+# # Move left to right keeping track of the current x position for drawing shapes.
+# x = 0
 
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
@@ -103,8 +103,7 @@ y = scaled_height // 2 - height // 2
 image = image.crop((x, y, x + width, y + height))
 
 # Display image.
-disp.image(image,rotation)
-
+disp.image(image, rotation)
 
 # # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 # cs_pin = digitalio.DigitalInOut(board.CE0)
