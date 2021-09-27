@@ -112,7 +112,7 @@ while True:
         if day:
             image = Image.open(cwd + "/pic/sun_" + demo_hour_str + ".jpg") # change 1 to hour
         else:
-            image = Image.open(cwd + "/pic/moon_" + demo_hour_str + ".jng")
+            image = Image.open(cwd + "/pic/moon_" + demo_hour_str + ".png")
 
         image = image.convert('RGBA')
         image = image.resize((30, 30), Image.BICUBIC)
