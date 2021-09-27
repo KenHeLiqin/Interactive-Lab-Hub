@@ -130,13 +130,18 @@ while True:
             current_city_index = 0
 
     # set timezone index
-    # if list_city[current_city_index] == 'NY':
-    #
-    # elif list_city[current_city_index] == 'LA':
-    #
-    # elif list_city[current_city_index] == 'LDN':
-    #
-    # elif list_city[current_city_index] == 'BJ':
+    if list_city[current_city_index] == 'NY':
+        demo_hour = demo_NY_hour
+
+    elif list_city[current_city_index] == 'LA':
+        demo_hour = demo_NY_hour
+
+    elif list_city[current_city_index] == 'LDN':
+        demo_hour = demo_NY_hour
+
+    elif list_city[current_city_index] == 'BJ':
+        demo_hour = demo_NY_hour
+
 
 
     # for demo: day or night
