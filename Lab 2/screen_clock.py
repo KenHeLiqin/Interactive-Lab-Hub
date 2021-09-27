@@ -97,7 +97,8 @@ while True:
         # draw.text((70, 110), time_str, font=font, fill="#FFFFFF")
 
 
-    background = Image.open(cwd + "/pic/BJ.jpg")
+
+    background = Image.open(cwd + "/pic/BJ_1.jpg")
     background = background.resize((240, 135), Image.BICUBIC)
     background.paste(image)
 
