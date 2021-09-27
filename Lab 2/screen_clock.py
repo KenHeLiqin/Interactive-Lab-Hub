@@ -182,12 +182,11 @@ while True:
     moon_pos_x = moon_pos_hour * 16
     moon_pos_y = int(((moon_pos_x - 90)**2)/250)
 
-
     # paste moon or sun to the background, and set its position
     if demo_day:
         background.paste(image, (sun_pos_x, sun_pos_y), image)
     else:
-        background.paste(image, (sun_pos_x ,sun_pos_y), image)
+        background.paste(image, (moon_pos_x ,moon_pos_y), image)
 
     # for demo, determine how fast to change hours, set slowness.
     slowness = 1
