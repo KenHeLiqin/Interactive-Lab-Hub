@@ -208,14 +208,17 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+Watch our demo video [Here](https://drive.google.com/file/d/11w0BZDVRiGL6zfk1EdbdY1_pLfjjtql3/view?usp=sharing).
+
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
-Watch our demo video [Here](https://drive.google.com/file/d/11w0BZDVRiGL6zfk1EdbdY1_pLfjjtql3/view?usp=sharing).
 
+
+Material's sources:
+
+The background pictures of 4 cities are found online and are created by iconisa.
 
