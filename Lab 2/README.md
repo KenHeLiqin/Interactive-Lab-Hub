@@ -195,7 +195,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Make a short video of your modified barebones PiClock
 
 ## *******************************************************************************
-## I collaborated with Jiahao Dong for lab 2 Part 1. All of our work is posted on his github.[Here](https://github.com/JoeD016/Interactive-Lab-Hub/tree/Fall2021/Lab%202)
+## I collaborated with Jiahao Dong for lab 2 Part 1. All of our work is posted on his github.[Here](https://github.com/JoeD016/Interactive-Lab-Hub/tree/Fall2021/Lab%202). However, for part 2, all the work is posted on my github.
 ## *******************************************************************************
 
 
