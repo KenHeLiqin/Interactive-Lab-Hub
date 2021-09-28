@@ -10,10 +10,7 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 
-## *******************************************************************************************
-## I collaborated with Jiahao Dong for lab 2. All of our work is posted on his github.[Here](https://github.com/JoeD016/Interactive-Lab-Hub/tree/Fall2021/Lab%202)
-## *******************************************************************************************
-
+I collaborated with Jiahao Dong for lab 2 part 1. Shenxin Jiang joined us for part 2. At part 2, Jiahao Dong, Shenxin Jiang, and I worked together.
 
 
 ## Prep
@@ -194,13 +191,13 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
 
-## Part F. 
+## Part F & G. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+## *******************************************************************************
+## I collaborated with Jiahao Dong for lab 2 Part 1. All of our work is posted on his github.[Here](https://github.com/JoeD016/Interactive-Lab-Hub/tree/Fall2021/Lab%202)
+## *******************************************************************************
 
-## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 
 # Prep for Part 2
