@@ -206,6 +206,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+ Gave comment to two teams on my table during lab time
+ 
+ Received two comments from two team during lab time.
+ - We have four possible designs for part 1. We received feedback on the feasibility of implementation for each on and finall decided to build our current design.
+ - We initially just wanted to do two timezones. After receiving feedback, we did implement 4 timezones.
+
+
+
 # Lab 2 Part 2
 
 
