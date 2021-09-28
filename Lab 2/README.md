@@ -211,11 +211,25 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 Watch our demo video [Here](https://drive.google.com/file/d/11w0BZDVRiGL6zfk1EdbdY1_pLfjjtql3/view?usp=sharing).
 
+Our code is in screen_clock.py.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+A significant of time spent on creating sun pictures, moon pictures, and composing two background pictures, though the two backgrounds was not used at the end. (By Shenxin)
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+Modifying the sun and moon pictures. (By Jiahao)
 
+Search for backgrounds picture online (By Ken He)
+
+Created a mole popping up features. The mole popped up on the screen every 10 minutes to track time. This feature is deprecated at the end. (By Shenxin)
+
+Implement the button functions to switch timezone. (By Jiahao)
+
+Use pytz package to get the correct date time for different timezone. (By Jiahao)
+
+Lay out the backgrounds for different cities; overlap with sun or moon; implement the sun and moon movement. (By Ken He)
+
+Create the demo environment, such as time lapse and calculation of difference between timezone, for this project. (By Ken He)
+
+Create video (By Ken He)
 
 Material's sources:
 
