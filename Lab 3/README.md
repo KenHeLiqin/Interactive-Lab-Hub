@@ -99,6 +99,12 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ### Storyboard
 
+*******************************************************************************
+
+I collaborated with Yuzhen Zhang and Xining Fang for lab 3. All of our work is posted on Yuzhen's github.[here](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub)
+
+*******************************************************************************
+
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
