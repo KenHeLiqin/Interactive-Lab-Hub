@@ -5,7 +5,7 @@ For lab this week, we focus on both on sensing, to bring in new modes of input i
 ## Part 1 Lab Preparation
 ## *******************************************************************************
 
-I collaborated with Yuzhen Zhang and Xining Fang for lab 3. All of our work is posted on Yuzhen's github.[here](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub/tree/Fall2021/Lab%204)
+I collaborated with Yuzhen Zhang and Xining Fang for lab 4. All of our work is posted on Yuzhen's github.[here](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub/tree/Fall2021/Lab%204)
 
 ## *******************************************************************************
 
