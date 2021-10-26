@@ -1,3 +1,10 @@
+## *******************************************************************************
+
+I collaborated with Yuzhen Zhang and Xining Fang for lab 3. All of our work is posted on Yuzhen's github.[here](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub)
+
+## *******************************************************************************
+
+
 # Chatterboxes
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
@@ -99,11 +106,7 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ### Storyboard
 
-## *******************************************************************************
 
-I collaborated with Yuzhen Zhang and Xining Fang for lab 3. All of our work is posted on Yuzhen's github.[here](https://github.com/AdamYuzhenZhang/Interactive-Lab-Hub)
-
-## *******************************************************************************
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
